@@ -2,7 +2,7 @@
     $userName = $_POST['userName'];
     $password = $_POST['password'];
 
-    $dbConnection = mysqli_connect("localhost", "root", "Prudhvi@2004", "login");
+    $dbConnection = mysqli_connect("192.168.146.236", "root", "Prudhvi@2004", "login");
 
     if($dbConnection) {
         echo "Login Successfully!!!";
